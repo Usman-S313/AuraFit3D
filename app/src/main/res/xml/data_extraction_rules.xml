@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  data_extraction rules — Per SRS FR-7.3
+  Health data is EXCLUDED from cloud backup and device transfer by default.
+  User may opt-in via in-app settings (not yet implemented in v1.0 — defaults to OFF).
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="aurafit3d_prefs.xml" />
+        <exclude domain="database" path="aurafit3d_history.db" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="aurafit3d_prefs.xml" />
+        <exclude domain="database" path="aurafit3d_history.db" />
+    </device-transfer>
+</data-extraction-rules>

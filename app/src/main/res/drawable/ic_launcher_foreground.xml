@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AuraFit3D launcher icon foreground — stylized body silhouette in accent cyan -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Head -->
+    <path
+        android:fillColor="#37DCF2"
+        android:pathData="M54,28 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <!-- Body silhouette (chest/waist/hip) -->
+    <path
+        android:fillColor="#37DCF2"
+        android:pathData="M54,40
+            C 44,40 41,46 41,55
+            C 41,62 44,68 44,72
+            C 44,76 41,82 41,88
+            L 41,95
+            L 67,95
+            L 67,88
+            C 67,82 64,76 64,72
+            C 64,68 67,62 67,55
+            C 67,46 64,40 54,40 Z" />
+    <!-- Arms (left + right) -->
+    <path
+        android:fillColor="#37DCF2"
+        android:pathData="M40,52
+            C 36,52 34,56 34,62
+            L 34,82
+            C 34,84 36,85 37,85
+            C 38,85 40,84 40,82
+            L 40,68 Z" />
+    <path
+        android:fillColor="#37DCF2"
+        android:pathData="M68,52
+            C 72,52 74,56 74,62
+            L 74,82
+            C 74,84 72,85 71,85
+            C 70,85 68,84 68,82
+            L 68,68 Z" />
+</vector>

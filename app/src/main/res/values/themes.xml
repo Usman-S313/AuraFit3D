@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  AuraFit3D — themes.xml
+  Per SRS FR-8.1: Dark theme by default, Material 3 styling, edge-to-edge layout.
+  Base theme: Theme.Material3.Dark.NoActionBar (Compose manages the rest).
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AuraFit3D" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/aurafit_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  AuraFit3D — colors.xml
+  DM-1 Deep Cyan palette (per SRS visual design).
+  Material 3 dark theme by default (FR-8.1).
+-->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- AuraFit3D brand palette -->
+    <color name="aurafit_bg">#FF0F1419</color>
+    <color name="aurafit_card">#FF1A1F2E</color>
+    <color name="aurafit_accent">#FF37DCF2</color>
+    <color name="aurafit_accent_dark">#FF1B6B7A</color>
+    <color name="aurafit_surface">#FF1F2937</color>
+    <color name="aurafit_border">#FF2D3748</color>
+    <color name="aurafit_text_primary">#FFF5F5F5</color>
+    <color name="aurafit_text_secondary">#FF9CA3AF</color>
+
+    <!-- Status colors (paired with text labels — never color alone, per NFR-6) -->
+    <color name="status_healthy">#FF10B981</color>
+    <color name="status_elevated">#FFF59E0B</color>
+    <color name="status_high">#FFEF4444</color>
+</resources>

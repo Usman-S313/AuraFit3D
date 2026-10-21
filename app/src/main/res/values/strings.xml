@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  AuraFit3D — strings.xml
+  Per SRS FR-8.4: ALL user-facing strings live in resource files.
+  No user-facing string is hardcoded in Kotlin source.
+  Per SRS NFR-9: neutral, non-judgmental wording for all status labels.
+-->
+<resources>
+    <!-- App identity -->
+    <string name="app_name">AuraFit 3D</string>
+    <string name="app_version">v3.0.0 (2D-First)</string>
+    <string name="app_subtitle">Body Composition Analyzer</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_input">Input</string>
+    <string name="nav_results">Results</string>
+    <string name="nav_planner">Planner</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Input screen -->
+    <string name="input_title">Capture Measurements</string>
+    <string name="input_subtitle">Enter measurements to compute body composition.</string>
+    <string name="input_metric">Metric</string>
+    <string name="input_imperial">Imperial</string>
+    <string name="input_sex">Biological Sex</string>
+    <string name="input_male">Male</string>
+    <string name="input_female">Female</string>
+    <string name="input_age">Age (years)</string>
+    <string name="input_height">Height</string>
+    <string name="input_weight">Weight</string>
+    <string name="input_activity">Activity Level</string>
+    <string name="input_neck">Neck Circumference</string>
+    <string name="input_waist">Waist Circumference</string>
+    <string name="input_hip">Hip Circumference</string>
+    <string name="input_compute">Compute Results</string>
+
+    <!-- Activity levels -->
+    <string name="activity_sedentary">Sedentary (1.2)</string>
+    <string name="activity_light">Light (1.375)</string>
+    <string name="activity_moderate">Moderate (1.55)</string>
+    <string name="activity_active">Active (1.725)</string>
+    <string name="activity_very_active">Very Active (1.9)</string>
+
+    <!-- Results screen -->
+    <string name="results_title">Body Composition</string>
+    <string name="results_view_skin">Skin</string>
+    <string name="results_view_structure">Structure</string>
+    <string name="results_view_heatmap">Heatmap</string>
+    <string name="results_zoom_reset">Reset</string>
+    <string name="results_heatmap_label">Estimated central fat distribution</string>
+    <string name="results_structure_label">Stylized structural reference</string>
+
+    <!-- Metric labels -->
+    <string name="metric_bmi">BMI</string>
+    <string name="metric_body_fat">Body Fat</string>
+    <string name="metric_ffmi">FFMI</string>
+    <string name="metric_whtr">WHtR</string>
+    <string name="metric_bmr">BMR</string>
+    <string name="metric_tdee">TDEE</string>
+
+    <!-- ACE band labels (per SRS Table 5.4 — neutral wording) -->
+    <string name="band_essential">Essential</string>
+    <string name="band_athlete">Athlete</string>
+    <string name="band_fitness">Fitness</string>
+    <string name="band_average">Average</string>
+    <string name="band_high_risk">High Risk</string>
+
+    <!-- WHtR status labels -->
+    <string name="whtr_healthy">Healthy</string>
+    <string name="whtr_elevated">Elevated</string>
+    <string name="whtr_high">High</string>
+
+    <!-- Planner screen -->
+    <string name="planner_title">Calorie &amp; Goal Planner</string>
+    <string name="planner_goal_loss">Weight Loss</string>
+    <string name="planner_goal_maintenance">Maintenance</string>
+    <string name="planner_goal_gain">Weight Gain</string>
+    <string name="planner_daily_calories">Daily Calories</string>
+    <string name="planner_protein">Protein</string>
+    <string name="planner_fat">Fat</string>
+    <string name="planner_carbs">Carbs</string>
+    <string name="planner_floor_notice">Calorie floor applied: minimum safe intake</string>
+    <string name="planner_carb_clamp_notice">Carbs set to 0; protein reduced to fit calorie budget</string>
+    <string name="planner_projection_title">Goal Projection</string>
+    <string name="planner_target_bf">Target Body Fat %</string>
+    <string name="planner_weeks_to_goal">Projected weeks to goal</string>
+    <string name="planner_already_at_target">Already at or below target</string>
+    <string name="planner_assumptions_title">Assumptions</string>
+    <string name="planner_assumption_1">Constant lean mass; all change is fat mass</string>
+    <string name="planner_assumption_2">7700 kcal per kg of fat</string>
+    <string name="planner_assumption_3">500 kcal/day deficit</string>
+    <string name="planner_assumption_4">Navy method ±3–4 pp error</string>
+    <string name="planner_side_by_side_title">Current vs Target</string>
+    <string name="planner_now_label">Now</string>
+    <string name="planner_goal_label">Goal</string>
+
+    <!-- History screen -->
+    <string name="history_title">Result History</string>
+    <string name="history_empty">No history yet. Compute your first result on the Input tab.</string>
+    <string name="history_delete_all">Delete all my data</string>
+    <string name="history_delete_confirm_title">Delete all data?</string>
+    <string name="history_delete_confirm_message">This will permanently remove your profile, history, and cached state. This action is irreversible.</string>
+    <string name="history_delete_confirm">Delete</string>
+    <string name="history_delete_cancel">Cancel</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_dark">Dark (locked)</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_backup">Include in cloud backup</string>
+    <string name="settings_backup_default_off">Default OFF per privacy policy</string>
+    <string name="settings_delete_all">Delete all my data</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_srs">SRS Reference</string>
+    <string name="settings_about_srs_value">v3.0.0 (2D-First Edition)</string>
+    <string name="settings_accessibility_note">TalkBack labels enabled on all interactive elements</string>
+
+    <!-- Disclaimer (per SRS NFR-9 — on every results screen + PDF) -->
+    <string name="disclaimer_short">Estimates only. Not medical advice.</string>
+    <string name="disclaimer_navy_error">Navy method ±3–4 pp error</string>
+
+    <!-- Validation errors -->
+    <string name="error_required">This field is required</string>
+    <string name="error_range">Value must be in range %1$.1f – %2$.1f</string>
+    <string name="error_waist_neck_male">Waist must exceed neck for males (Navy method)</string>
+    <string name="error_hip_required_female">Hip is required for female users</string>
+
+    <!-- Units -->
+    <string name="unit_cm">cm</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_in">in</string>
+    <string name="unit_lb">lb</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_grams">g</string>
+    <string name="unit_percent">%</string>
+    <string name="unit_weeks">weeks</string>
+</resources>
